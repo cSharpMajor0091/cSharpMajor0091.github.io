@@ -13,14 +13,12 @@ body{
 }
 
 h1{
-    display: block;
+    display: inline;
 
     font-family: Title Font;
     color:rgb(235, 175, 107);
 
     font-size: 500px;
-
-    height:450;
 
     text-align: center;
 }
