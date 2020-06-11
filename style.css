@@ -1,0 +1,30 @@
+body{
+    background-color: linen;
+}
+
+h1{
+    display: block;
+
+    font-family: Title Font;
+    color:rgb(235, 175, 107);
+
+    font-size: 500px;
+
+    height:450;
+
+    text-align: center;
+}
+
+
+h2{
+    display: block;
+
+    font-family: Title Font;
+    color:rgb(235, 175, 107);
+
+    font-size: 500px;
+
+    height:10;
+
+    text-align: center;
+}
