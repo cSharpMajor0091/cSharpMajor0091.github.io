@@ -2,6 +2,16 @@ body{
     background-color: linen;
 }
 
+@font-face{
+    font-family: Title Font;
+    src: url("/bakery.ttf");
+}
+
+@font-face{
+    font-family: Paragraph Font;
+    src: url("/dosis.ttf");
+}
+
 h1{
     display: block;
 
@@ -27,4 +37,8 @@ h2{
     height:10;
 
     text-align: center;
+}
+
+p{
+
 }
