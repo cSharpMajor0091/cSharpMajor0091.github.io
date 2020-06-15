@@ -44,6 +44,16 @@ h2{
     text-align: center;
 }
 
+h3{
+    font-family: Paragraph Font;
+    font-size: 100px;
+}
+
+h4{
+    font-family: Paragraph Font;
+    font-size: 100px
+}
+
 p{
     box-sizing: border-box;
     padding: 25px;
