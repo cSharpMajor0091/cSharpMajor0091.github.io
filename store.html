@@ -49,6 +49,14 @@
   grid-row: 3;
 }
 
+.image-grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 0px;
+  align-content: center;
+}
+
 .imageItem1{
   grid-column: 1;
   grid-row: 1;
@@ -71,7 +79,7 @@
 <body>
 
     <center>
-      <div class="grid-container">
+      <div class="image-grid-container">
         <a class="imageItem1" href="index.html"><img src="/homeImage.png" alt ="homepage" width = "300" height="150" ></a>
         <a class="imageItem2" href="store.html"><img src="/storeImage.png" alt ="store page" width = "300" height="150" ></a> 
         <a class="imageItem3" href="aboutus.html"><img src="/aboutusImage.png" alt ="about us page" width = "300" height="150" ></a>
