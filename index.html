@@ -17,8 +17,8 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto auto auto;
+  grid-template-columns: repeat(5, 30vw);
+  grid-template-rows: repeat(5, 30vh);
   grid-gap: 0px;
   align-content: center;
 }
@@ -36,6 +36,11 @@
 .item3{
   grid-column: 3;
   grid-row: 1;
+}
+
+img{
+    width: 30vw;
+    height: auto;
 }
 
 </style>
@@ -68,7 +73,7 @@
     </div>
 
     <div class="item2">
-    <img src="/placeholder.png" alt="placeholder" display="block"width="605" height="605"  float="left">
+    <img src="/placeholder.png" alt="placeholder" display="block"width="400" height="400"  float="left">
     </div>
 
     <div class="item3">
