@@ -3,7 +3,6 @@ body{
     background-color: linen;
 }
 
-
 @font-face{
     font-family: Title Font;
     src: url("/oregano.ttf");
@@ -68,4 +67,9 @@ p{
 div{
     box-sizing: border-box;
     padding: 25px;
+}
+
+img{
+    width: 30vw;
+    height: auto;
 }
