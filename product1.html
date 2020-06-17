@@ -29,10 +29,10 @@ h1{
 .grid-container {
   display: grid;
   grid-template-columns: auto  auto ;
-  grid-template-rows: 15vw 15vw 15vw 15vw ;
+  grid-template-rows: 10vw 10vw 10vw 10vw 10vw 10vw;
   grid-gap: 0px;
   align-content: center;
-
+  background-color: peru;
   
 }
 
@@ -47,7 +47,8 @@ h1{
 
 
  
-=}
+    background-color: aqua;
+}
 
 .item2{
 
@@ -57,7 +58,7 @@ h1{
 
     align-items: center;
 
-
+    background-color:blueviolet;
 }
 
 .item3{
@@ -67,8 +68,21 @@ h1{
     align-items: center;
 
 
-
+  background-color:red;
     
+}
+
+grid-container{
+display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 75px;
+  grid-gap: 10px;
+}
+
+grid-item{
+    display: flex;            /* new */
+  align-items: center;      /* new */
+  justify-content: center; 
 }
 
 
@@ -90,19 +104,23 @@ h1{
 
 <h1>Blue Tie-Dye Shirt</h1>
 
-<div class="grid-container">
 
-    <div class="item1">
+<grid-container>
+
+
+    <div class="item1" style="justify-self: center; align-self:center;">
      <img src="/placeholder.png" alt="image" class="product">
     </div>
 
-    <div class="item2">
+    <div class="item2"style="justify-self: center; align-self:center;">
     <h3 class="name" style="align-self: center;">Blue Tie-Dye Shirt</h3>
     </div>      
 
-    <div class="item3">
+    <div class="item3"style="justify-self: center; align-self:center;">
     <p class="price" style="align-self:center;">19.00 AUD</p>
     </div>
+
+</grid-container>
 
 
 </div>
