@@ -42,22 +42,25 @@ h1{
 }
 
 .item1{
-  grid-column: 2;
-  grid-row: 1;
-  background-color: aqua;
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+ 
+    background-color: aqua;
 }
 
 .item2{
-  grid-column: 2;
-  grid-row: 2;
-  background-color:red;
-   
+    grid-column: 2;
+  grid-row: 1;
+background-color:blueviolet;
 }
 
 .item3{
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column: 1;
+ 
+    grid-column: 2;
+  grid-row: 2;
+  background-color:red;
     
 }
 
@@ -83,10 +86,10 @@ h1{
 <div class="grid-container"></div>
 
 
+<img src="/placeholder.png" alt="image" class="item1">
+<h3 class="item2">Blue Tie-Dye Shirt</h3>
+<p class="item3">19.00 AUD</p>
 
-<h3 class="item1">Blue Tie-Dye Shirt</h3>
-<p class="item2">19.00 AUD</p>
-<img src="/placeholder.png" alt="image" class="item3" style="float: left;">
 
 </div>
 
